@@ -16,7 +16,7 @@ class BladeMdiServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../resources/svg' => public_path('vendor/blade-mdi'),
+                __DIR__.'/../resources/svg' => public_path('vendor/blade-mdi'),
             ], 'blade-mdi');
         }
     }
@@ -30,7 +30,7 @@ class BladeMdiServiceProvider extends ServiceProvider
     {
         $this->callAfterResolving(Factory::class, function (Factory $factory) {
             $factory->add('blade-mdi', [
-                'path' => __DIR__ . '/../resources/svg',
+                'path' => __DIR__.'/../resources/svg',
                 'prefix' => 'mdi',
             ]);
         });

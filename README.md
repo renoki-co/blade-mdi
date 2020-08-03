@@ -3,13 +3,11 @@ Laravel Blade Material Design Icons
 
 ![CI](https://github.com/renoki-co/blade-mdi/workflows/CI/badge.svg?branch=master)
 [![codecov](https://codecov.io/gh/renoki-co/blade-mdi/branch/master/graph/badge.svg)](https://codecov.io/gh/renoki-co/blade-mdi/branch/master)
-[![StyleCI](https://github.styleci.io/repos/:styleci_code/shield?branch=master)](https://github.styleci.io/repos/:styleci_code)
+[![StyleCI](https://github.styleci.io/repos/284687688/shield?branch=master)](https://github.styleci.io/repos/284687688)
 [![Latest Stable Version](https://poser.pugx.org/renoki-co/blade-mdi/v/stable)](https://packagist.org/packages/renoki-co/blade-mdi)
 [![Total Downloads](https://poser.pugx.org/renoki-co/blade-mdi/downloads)](https://packagist.org/packages/renoki-co/blade-mdi)
 [![Monthly Downloads](https://poser.pugx.org/renoki-co/blade-mdi/d/monthly)](https://packagist.org/packages/renoki-co/blade-mdi)
 [![License](https://poser.pugx.org/renoki-co/blade-mdi/license)](https://packagist.org/packages/renoki-co/blade-mdi)
-
-**Note:** Replace  ```:styleci_code``` with their correct values in [README.md](README.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE](LICENSE) and [composer.json](composer.json) files, then delete this line.
 
 Blade MDI adds Material Design Icons as Laravel Blade UI Kit components. For more information regarding Material Design Icons, check https://materialdesignicons.com
 

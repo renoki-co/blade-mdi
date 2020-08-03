@@ -29,9 +29,9 @@ class BladeMdiServiceProvider extends ServiceProvider
     public function register()
     {
         $this->callAfterResolving(Factory::class, function (Factory $factory) {
-            $factory->add('bootstrap-icons', [
+            $factory->add('blade-mdi', [
                 'path' => __DIR__ . '/../resources/svg',
-                'prefix' => 'bi',
+                'prefix' => 'mdi',
             ]);
         });
     }

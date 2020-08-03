@@ -22,6 +22,7 @@ abstract class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
+            \BladeUI\Icons\BladeIconsServiceProvider::class,
             \RenokiCo\BladeMdi\BladeMdiServiceProvider::class,
         ];
     }
